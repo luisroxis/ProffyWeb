@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Landing from './pages/Landing'
+import Route from './routes'
 
 import './assets/styles/golbal.css'
 const App:React.FC =() => {
   return (
-    <Landing />
+    <Route />
   );
 }
 
