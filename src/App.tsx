@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './assets/styles/golbal.css'
 const App:React.FC =() => {
   return (
     <div className="App">
