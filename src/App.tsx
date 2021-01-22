@@ -1,11 +1,11 @@
 import React from 'react';
 
+import Landing from './pages/Landing'
+
 import './assets/styles/golbal.css'
 const App:React.FC =() => {
   return (
-    <div className="App">
-      <h1>Proffy</h1>
-    </div>
+    <Landing />
   );
 }
 
