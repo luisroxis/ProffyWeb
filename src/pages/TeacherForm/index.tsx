@@ -35,7 +35,6 @@ function TeacherForm() {
       }
       return scheduleItem
     })
-
     setScheduleItems(updatedScheduleItem)
   }
 
@@ -56,8 +55,7 @@ function TeacherForm() {
       history.push('/')
     }).catch(()=> {
       alert('Erro no Cadastro')
-    })
-    
+    })    
   }
 
   return (   
