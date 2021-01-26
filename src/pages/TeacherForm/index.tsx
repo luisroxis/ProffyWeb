@@ -61,8 +61,7 @@ function TeacherForm() {
   }
 
 
-  return (
-    <>
+  return (   
      <div id="page-teacher-form" className="container">
         <PageHeader 
           title="Que bom que você quer dar aula"
@@ -191,7 +190,7 @@ function TeacherForm() {
           </form>
          </main>
       </div>
-    </>
+    
   )
 }
 
