@@ -4,7 +4,7 @@ import Input from '../../components/Input';
 import PageHeader from '../../components/PageHeader';
 import Select from '../../components/Select';
 import api from '../../services/api';
-import Textarea from '../../components/Textarea/index';
+import Textarea from '../../components/Textarea';
 
 import warningIcon from '../../assets/images/icons/warning.svg';
 import './styles.css'
