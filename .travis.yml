@@ -1,11 +1,9 @@
 language: node_js
-
 node_js:
   - "12"
-
-script:
-    - npm test
+script:    
     - npm run build
+before_deploy: "echo 'Deploying.'"
 
 
 
